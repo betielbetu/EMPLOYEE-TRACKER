@@ -4,9 +4,7 @@ require('console.table');
 const logo = require('asciiart-logo');
 const appLogo = logo({name: "Employee Manager"}).render()
 
-/********************************************/
-/***** Functions related to departments *****/
-/********************************************/
+
 
 function viewAllDepartments() {
     db.readAllDepartments()
